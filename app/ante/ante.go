@@ -69,7 +69,7 @@ func NewAnteHandler(
 							authante.NewSetUpContextDecorator(), // outermost AnteDecorator. SetUpContext must be called first
 							authante.NewMempoolFeeDecorator(),
 							authante.NewValidateBasicDecorator(),
-							authante.TxTimeoutHeightDecorator{},
+							authante.NewTxTimeoutHeightDecorator(),
 							authante.NewValidateMemoDecorator(ak),
 							authante.NewConsumeGasForTxSizeDecorator(ak),
 							authante.NewSetPubKeyDecorator(ak), // SetPubKeyDecorator must be called before all signature verification decorators
