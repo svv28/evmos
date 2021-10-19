@@ -60,7 +60,7 @@ func NewAnteHandler(
 						ante.NewEthIncrementSenderSequenceDecorator(ak), // innermost AnteDecorator.
 					)
 
-				case "/ethermint.types.v1alpha1.ExtensionOptionsWeb3Tx":
+				case "/ethermint.types.v1.ExtensionOptionsWeb3Tx":
 					// handle as normal Cosmos SDK tx, except signature is checked for EIP712 representation
 
 					switch tx.(type) {
