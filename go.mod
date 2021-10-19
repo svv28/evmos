@@ -17,6 +17,8 @@ require (
 	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519 // indirect
 )
 
+require github.com/pkg/errors v0.9.1
+
 require (
 	filippo.io/edwards25519 v1.0.0-beta.2 // indirect
 	github.com/99designs/keyring v1.1.6 // indirect
@@ -83,6 +85,7 @@ require (
 	github.com/inconshreveable/mousetrap v1.0.0 // indirect
 	github.com/jackpal/go-nat-pmp v1.0.2-0.20160603034137-1fa385a6f458 // indirect
 	github.com/jmhodges/levigo v1.0.0 // indirect
+	github.com/karalabe/usb v0.0.0-20190919080040-51dc0efba356 // indirect
 	github.com/keybase/go-keychain v0.0.0-20190712205309-48d3d31d256d // indirect
 	github.com/klauspost/compress v1.11.9 // indirect
 	github.com/lib/pq v1.10.2 // indirect
@@ -98,8 +101,8 @@ require (
 	github.com/olekukonko/tablewriter v0.0.5 // indirect
 	github.com/palantir/stacktrace v0.0.0-20161112013806-78658fd2d177 // indirect
 	github.com/pelletier/go-toml v1.9.4 // indirect
+	github.com/peterh/liner v1.1.1-0.20190123174540-a2c9a5303de7 // indirect
 	github.com/petermattis/goid v0.0.0-20180202154549-b0b1615b78e5 // indirect
-	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/client_golang v1.11.0 // indirect
 	github.com/prometheus/client_model v0.2.0 // indirect
